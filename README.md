@@ -55,15 +55,14 @@ User : poppy7 , Password : poppy7
 - Additionally, it will create a UsrAccess-poppy.csv file containing the usernames and passwords.
 
 ## Verification
+To verify that the users have been created correctly, follow these steps:
 
-- To verify that the users have been created correctly, follow these steps:
-```bash
-getent passwd | tail -7 | cut -d: -f1
-```
+1. **Check User Accounts**:
+   List the last 7 users created on the system to ensure they have been created:
+   ```bash
+   getent passwd | tail -7 | cut -d: -f1
+   ```
 
-
-## Example Output
-
-After running the script, you will see output similar to:
-
-   
+## Notes
+- Ensure you have the necessary permissions to execute user creation commands (useradd).
+- Consider security implications when using default passwords.
