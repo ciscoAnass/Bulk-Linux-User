@@ -27,7 +27,7 @@ This script automates the bulk creation of user accounts on a Linux system. It p
 - Add the following line to your shell configuration file (e.g., ~/.bashrc for bash):
   
 ```bash
-echo "alias bulkuser='~/Bulk-Linux-User/BulkUsers.sh'" >> ~/.bashrc
+echo "alias bulkuser='sudo ~/Bulk-Linux-User/BulkUsers.sh'" >> ~/.bashrc
 ```
 Then, apply the changes:
 
