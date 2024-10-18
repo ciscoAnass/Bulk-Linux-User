@@ -5,8 +5,8 @@ if [ $# -eq 2 ]; then
     user="$1"
     num="$2"
 else
-    read -p "Introduzca el nombre del Usuario que quieres crear: " user
-    read -p "Cuanto De Usuarios Quieres Crear: " num
+    read -p "Enter the username you want to create: " user
+    read -p "How many users do you want to create: " num
 fi
 
 
